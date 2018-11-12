@@ -1,4 +1,5 @@
 import React from "react";
+import App from "../App"
 
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
@@ -22,5 +23,5 @@ storiesOf("Button", module)
     </Button>
   ));
 storiesOf("Test", module).add("TestBtn", () => {
-  return <Button>JustForTest</Button>;
+  return <App/>
 });
